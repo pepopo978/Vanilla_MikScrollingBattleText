@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Name: Babble-Spell-2.2
 Revision: $Rev: 15059 $
 Author(s): ckknight (ckknight@gmail.com)
@@ -59,6 +59,7 @@ BabbleSpell:RegisterTranslations("enUS", function()
 		["Arcane Resistance"] = true,
 		["Arcane Shot"] = true,
 		["Arcane Subtlety"] = true,
+		["Arcane Surge"] = true,
 		["Arctic Reach"] = true,
 		["Armorsmith"] = true,
 		["Aspect of the Beast"] = true,
@@ -3141,6 +3142,7 @@ local spellIcons = {
 	["Arcane Resistance"] = "Spell_Nature_StarFall",
 	["Arcane Shot"] = "Ability_ImpalingBolt",
 	["Arcane Subtlety"] = "Spell_Holy_DispelMagic",
+	["Arcane Surge"] = "INV_Enchant_EssenceMysticalLarge",
 	["Arctic Reach"] = "Spell_Shadow_DarkRitual",
 	["Aspect of the Beast"] = "Ability_Mount_PinkTiger",
 	["Aspect of the Cheetah"] = "Ability_Mount_JungleTiger",
