@@ -3196,16 +3196,9 @@ end
 -- **********************************************************************************
 function MikSBTOpt.SetupAvailableTriggerEvents()
  table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_CREATURE_VS_SELF_HITS");
- table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_HOSTILEPLAYER_HITS");
- table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_PARTY_HITS");
  table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_CREATURE_VS_SELF_MISSES");
- table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_HOSTILEPLAYER_MISSES");
- table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_PARTY_MISSES");
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_CREATURE_VS_SELF_DAMAGE");  -- athenne add
- table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_HOSTILEPLAYER_DAMAGE");
- table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_PARTY_DAMAGE");
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_DAMAGESHIELDS_ON_OTHERS");
- table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_HOSTILEPLAYER_BUFF");
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_CREATURE_VS_SELF_BUFF");
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_PERIODIC_SELF_DAMAGE");
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_PERIODIC_SELF_BUFFS");
@@ -3217,7 +3210,6 @@ function MikSBTOpt.SetupAvailableTriggerEvents()
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_PERIODIC_FRIENDLYPLAYER_BUFFS");
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_PERIODIC_PARTY_BUFFS");
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_PERIODIC_CREATURE_DAMAGE");
- table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_PERIODIC_HOSTILEPLAYER_DAMAGE");
  table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_PET_HITS");
  table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_PET_MISSES");
  table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_PET_DAMAGE");
@@ -3228,7 +3220,6 @@ function MikSBTOpt.SetupAvailableTriggerEvents()
  table.insert(availableTriggerEvents, "CHAT_MSG_SKILL");
  table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_XP_GAIN");
  table.insert(availableTriggerEvents, "CHAT_MSG_COMBAT_HOSTILE_DEATH");
- table.insert(availableTriggerEvents, "CHAT_MSG_SPELL_CREATURE_VS_CREATURE_DAMAGE");
 end
 
 

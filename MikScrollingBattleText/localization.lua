@@ -66,7 +66,7 @@ MikSBT.MSG_HITS						= L["Hits"];
 MikSBT.MSG_CRIT						= L["Crit"];
 MikSBT.MSG_CRITS					= L["Crits"];
 MikSBT.MSG_MULTIPLE_TARGETS			= L["Multiple"];
-MikSBT.MSG_VULERNABLE_TRAILER		= L[" (%d vulnerability)"];
+MikSBT.MSG_VULNERABLE_TRAILER		= L[" (%d vulnerability)"];
 MikSBT.MSG_OVERHEAL_TRAILER			= L[" <\124cff00b37e\124h%d\124h\124r>"];
 MikSBT.MSG_PROFILE_RESET			= L["Profile Reset"];
 MikSBT.MSG_ENVIRONMENTAL_DROWNING	= L["Drowning"];
@@ -1126,8 +1126,8 @@ Message						= "(%s) "..ABSORB.."!",
    TriggerSettings = {
     Classes				= {HUNTER=true},
     TriggerType			= 6,
-    TriggerEvents			= {"CHAT_MSG_COMBAT_CREATURE_VS_SELF_MISSES", "CHAT_MSG_COMBAT_HOSTILEPLAYER_MISSES", "CHAT_MSG_COMBAT_PARTY_MISSES",
-                                 "CHAT_MSG_SPELL_CREATURE_VS_SELF_DAMAGE", "CHAT_MSG_SPELL_HOSTILEPLAYER_DAMAGE", "CHAT_MSG_SPELL_PARTY_DAMAGE"},
+    TriggerEvents			= {"CHAT_MSG_COMBAT_CREATURE_VS_SELF_MISSES",
+                                 "CHAT_MSG_SPELL_CREATURE_VS_SELF_DAMAGE"},
     SearchPatterns		= {"VSPARRYOTHERSELF", "SPELLPARRIEDOTHERSELF"},
    },
    Texture = "Interface\\Icons\\ability_warrior_challange"
@@ -1145,8 +1145,8 @@ Message						= "(%s) "..ABSORB.."!",
    TriggerSettings = {
     Classes				= {HUNTER=true},
     TriggerType			= 6,
-    TriggerEvents			= {"CHAT_MSG_COMBAT_CREATURE_VS_SELF_MISSES", "CHAT_MSG_COMBAT_HOSTILEPLAYER_MISSES", "CHAT_MSG_COMBAT_PARTY_MISSES",
-                                 "CHAT_MSG_SPELL_CREATURE_VS_SELF_DAMAGE", "CHAT_MSG_SPELL_HOSTILEPLAYER_DAMAGE", "CHAT_MSG_SPELL_PARTY_DAMAGE"},
+    TriggerEvents			= {"CHAT_MSG_COMBAT_CREATURE_VS_SELF_MISSES",
+                                 "CHAT_MSG_SPELL_CREATURE_VS_SELF_DAMAGE"},
     SearchPatterns		= {"VSDODGEOTHERSELF", "SPELLDODGEDOTHERSELF"},
    },
    Texture = "Interface\\Icons\\ability_hunter_swiftstrike"
@@ -1182,8 +1182,8 @@ Message						= "(%s) "..ABSORB.."!",
    TriggerSettings = {
     Classes				= {ROGUE=true},
     TriggerType			= 6,
-    TriggerEvents			= {"CHAT_MSG_COMBAT_CREATURE_VS_SELF_MISSES", "CHAT_MSG_COMBAT_HOSTILEPLAYER_MISSES", "CHAT_MSG_COMBAT_PARTY_MISSES",
-                                 "CHAT_MSG_SPELL_CREATURE_VS_SELF_DAMAGE", "CHAT_MSG_SPELL_HOSTILEPLAYER_DAMAGE", "CHAT_MSG_SPELL_PARTY_DAMAGE"},
+    TriggerEvents			= {"CHAT_MSG_COMBAT_CREATURE_VS_SELF_MISSES",
+                                 "CHAT_MSG_SPELL_CREATURE_VS_SELF_DAMAGE"},
     SearchPatterns		= {"VSPARRYOTHERSELF", "SPELLPARRIEDOTHERSELF"},
    },
    Texture = "Interface\\Icons\\ability_warrior_challange"
