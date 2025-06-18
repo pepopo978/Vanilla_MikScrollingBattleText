@@ -292,7 +292,7 @@ function MikCEH.OnEvent()
 
 		-- TODO handle all self damage here
 		-- for now just handle periodic damage (spell effect 3 or 89)
-		if not (string.match(effectAuraStr, ",3$") or string.match(effectAuraStr, ",89$")) then
+		if effectAuraStr == nil or not (string.find(effectAuraStr, ",3$") or string.find(effectAuraStr, ",89$")) then
 			return
 		end
 
